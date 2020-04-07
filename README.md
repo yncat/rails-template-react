@@ -1,24 +1,15 @@
 # README
+# Rails 6 アプリテンプレート (React版)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+React による開発環境を組み込んだ、 Rails 6 の新規アプリテンプレートです。トップページは、 home#index のルーティングになっていて、Reactが動くコードがテストで書いてあります。
 
-Things you may want to cover:
+セットアップについては、まずは [basicテンプレートのほう](https://github.com/yncat/rails-template-basic) を読んで、DBなどの設定をしてください。Rails s する直前までいったら、以下の追加タスクを実行してください。
 
-* Ruby version
+## 追加タスク
+$ bundle ex rails webpacker:install:react
 
-* System dependencies
+## You're on rails!
 
-* Configuration
+react-rails というgemを入れているので、 bundle ex rails g react:component とかすると、新しいコンポーネントを作れます。詳細は、 react-rails のリファレンスを参照してください。
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+とりあえず以上です。
